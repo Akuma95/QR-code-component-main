@@ -1,0 +1,77 @@
+:root {
+    --desktop-size: 1440px;
+    --mobile-size: 375px;
+
+    --font-size: 15px;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+
+    --space-500: 40px;
+    --space-300: 24px;
+    --space-200: 16px;
+}
+
+html {
+    height: 100vh;
+    font-size: var(--font-size);
+    font-family: Outfit;
+}
+
+body {
+    background-color: var(--slate-300);
+    position: relative;
+    height: 100%;
+    margin: 0px;
+}
+
+.card {
+    background-color: var(--white);
+    padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
+    width: 310px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.textbox {
+    padding: 0 var(--space-200);
+}
+
+p {
+    text-align: center;
+}
+
+.headline {
+    font-weight: var(--font-weight-bold);
+    line-height: 120%;
+    font-size: 22px;
+    color: var(--slate-900);
+    margin-top: var(--space-300);
+    margin-bottom: var(--space-200);
+}
+
+.text {
+    color: var(--slate-500);
+    line-height: 140%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
